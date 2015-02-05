@@ -40,7 +40,15 @@
             console.log($(window));
             var myToken = window.location.hash.split("=");
             console.log(myToken);
-      })
+            
+            $.ajax({
+              type: 'Get'+
+              url: "https://api.instagram.com/v1/users/"
+              
+            });
+            
+      });
+      </Script>
     
 </body>
 </html>
